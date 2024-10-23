@@ -62,7 +62,7 @@ Technique Default
 {
     Pass P0
     {
-        VertexShader = compile ps_3_0 MyVertexShader();
+        VertexShader = compile vs_3_0 MyVertexShader();
         PixelShader = compile ps_3_0 MyPixelShader();
         // I imagine it's possible to change more settings in here but you don't need to in UC
     }
