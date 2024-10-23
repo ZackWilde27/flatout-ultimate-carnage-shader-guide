@@ -56,7 +56,7 @@ struct PSDefault_O
 	float4 col : COLOR;
 };
 
-// If this was my compiler, this would be a perfect decompilation, but FXC rearranges things.
+// I can't be 100% sure that this is a perfect recreation, since FXC rearranges and optimizes it
 PSDefault_O PS_Default(PSDefault_I i)
 {
 	PSDefault_O o;
