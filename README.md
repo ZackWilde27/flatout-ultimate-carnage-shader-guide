@@ -34,13 +34,13 @@ The basic structure of a technique goes like this
 ```hlsl
 struct VS_Inputs
 {
-    pos : POSITION;
+    pos : SV_Position;
     //...
 };
 
 struct PS_Inputs
 {
-    pos : POSITION; // Position needs to be here but it is not given to the pixel shader
+    pos : SV_Position; // Position needs to be here but it is not given to the pixel shader
     //...
 };
 
