@@ -86,8 +86,6 @@ float4x4 g_VS_matWorld : register(c4);
 #define RotateToWorld(x) mul((float3x3)g_VS_matWorld, x)
 ```
 
-I've included the templates for default_static.fo and dynamic_nonlit.fo at the bottom of the page
-
 <br>
 
 # Disassembling
